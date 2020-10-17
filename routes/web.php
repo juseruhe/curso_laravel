@@ -33,3 +33,7 @@ Route::get('/runtime',function(){
   $tiempo = config('app.timezone');
   return $tiempo;
 });
+
+Route::get('/admin',function(){
+    return "Hola desde Admin";
+  });
