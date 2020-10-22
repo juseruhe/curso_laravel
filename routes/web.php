@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+
 Route::get('/nombre',function(){
     $nombre = config('app.name');
     return $nombre;
@@ -37,3 +39,15 @@ Route::get('/runtime',function(){
 Route::get('/admin',function(){
     return "Hola desde Admin";
   });
+
+Route::get('test',function(){
+
+    return view('test');
+
+});
+
+Route::get('prueba','App\Http\Controllers\prueba@dirigir');
+
+Route::get('user/{name}/{age}','App\Http\Controllers\TestController@index');
+
+Route::resource('task','App\Http\Controllers\TaskController');
