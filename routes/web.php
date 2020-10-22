@@ -51,3 +51,8 @@ Route::get('prueba','App\Http\Controllers\prueba@dirigir');
 Route::get('user/{name}/{age}','App\Http\Controllers\TestController@index');
 
 Route::resource('task','App\Http\Controllers\TaskController');
+
+Route::get('demo',function(){
+
+    return view('demo');
+});
