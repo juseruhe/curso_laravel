@@ -48,6 +48,10 @@ Route::get('test',function(){
 
 Route::get('prueba','App\Http\Controllers\prueba@dirigir');
 
+Route::get('casa',function(){
+    return "Hola desde Casa";
+});
+
 Route::get('user/{name}/{age}','App\Http\Controllers\TestController@index');
 
 Route::resource('task','App\Http\Controllers\TaskController');
@@ -56,3 +60,5 @@ Route::get('demo',function(){
 
     return view('demo');
 });
+
+Route::get('jaja','App\Http\Controllers\jaja@hacer');

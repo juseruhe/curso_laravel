@@ -7,5 +7,12 @@
 </head>
 <body>
     <h1>Perfil del Estudiante </h1>
+    <style> 
+    h1{color:red; 
+    font-family:tahoma; 
+    font-size:55px; 
+    text-decoration:underline;} 
+   body{background: lightblue;}
+   </style>
 </body>
 </html>
