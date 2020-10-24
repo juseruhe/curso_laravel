@@ -62,3 +62,5 @@ Route::get('demo',function(){
 });
 
 Route::get('jaja','App\Http\Controllers\jaja@hacer');
+
+Route::get('users/{user}','App\Http\Controllers\UserController@show');

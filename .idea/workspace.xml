@@ -2,90 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0572a111-b4cc-42aa-9688-6cab1054f290" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Curso/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/.styleci.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/app/Console/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/app/Exceptions/Handler.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/app/Http/Controllers/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/app/Http/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/app/Http/Middleware/Authenticate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/app/Models/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/app/Providers/AppServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/app/Providers/AuthServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/app/Providers/EventServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/app/Providers/RouteServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/artisan" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/bootstrap/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/bootstrap/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/config/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/config/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/config/broadcasting.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/config/cache.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/config/cors.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/config/database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/config/filesystems.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/config/hashing.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/config/logging.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/config/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/config/queue.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/config/services.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/config/session.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/config/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/database/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/database/factories/UserFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/database/seeders/DatabaseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/public/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/public/web.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/resources/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/resources/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/resources/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/resources/lang/en/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/resources/lang/en/pagination.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/resources/lang/en/passwords.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/resources/lang/en/validation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/routes/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/routes/channels.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/routes/console.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/routes/web.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/server.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/storage/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/storage/app/public/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/storage/framework/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/storage/framework/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/storage/framework/cache/data/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/storage/framework/sessions/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/storage/framework/testing/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/storage/framework/views/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/storage/logs/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/tests/CreatesApplication.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/tests/Feature/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/tests/TestCase.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/tests/Unit/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso/webpack.mix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/student/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/profile.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +27,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -231,6 +155,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -249,7 +179,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603559687229</updated>
-      <workItem from="1603559688354" duration="1474000" />
+      <workItem from="1603559688354" duration="7669000" />
     </task>
     <servers />
   </component>
@@ -265,9 +195,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603559766140" />
-    <state x="186" y="10" key="SettingsEditor" timestamp="1603561195354">
+    <state x="186" y="10" key="SettingsEditor" timestamp="1603561730703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603561195354" />
+    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603561730703" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+        <item name="blog" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
 </project>
